@@ -543,8 +543,6 @@ static void VotingFunction(String[] movieNames, int[] arrayofVotes){
          Scanner sc = new Scanner(System.in);
          while(movieSelected != true){
          String userMovie = sc.nextLine();
-         System.out.println(userMovie);
-         System.out.println(movieNames[0]);
          //userMovie = movieNames[1];
          for(int i =0; i < movieNames.length; i++){
             if(movieNames[i].equals(userMovie)){
